@@ -40,5 +40,5 @@ yform_spam_protection_whitelist_ycom_user_label = YCom-Benutzer ignorieren
 yform_spam_protection_whitelist_ycom_user_notice = Ignoriert eingeloggte YCom-Benutzer
 yform_spam_protection_whitelist_ycom_user_notice_disabled = Ignoriert eingeloggte YCom-Benutzer (YCom ist nicht installiert)
 
-yform_spam_protection_block_stopforumspam_label = Stop Forum Spam
-yform_spam_protection_block_stopforumspam_notice = Stop Forum Spam ist ein externer Dienst, über den die IP-Adresse der Anfrage geprüft wird. https://www.stopforumspam.com/
+yform_spam_protection_block_stop_forum_spam_label = Stop Forum Spam
+yform_spam_protection_block_stop_forum_spam_notice = Stop Forum Spam ist ein externer Dienst, über den die IP-Adresse der Anfrage geprüft wird. https://www.stopforumspam.com/

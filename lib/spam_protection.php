@@ -85,7 +85,7 @@ class spam_protection extends \rex_yform_manager_dataset
             $debug ? dump("tld") : null;
         }
         if (self::checkStopForumSpam($ip)) {
-            $reason[] = 'block_stop_spam';
+            $reason[] = 'block_stop_forum_spam';
         }
         if (self::checkFormMicrotime($form_microtime)) {
             $releasedate = new DateTime('now + '.self::getConfig('block_form_time') .' seconds');
@@ -114,7 +114,7 @@ class spam_protection extends \rex_yform_manager_dataset
 
     public static function checkStopForumSpam($ip) :bool
     {
-        if (!self::getConfig('block_stop_spam')) {
+        if (!self::getConfig('block_stop_forum_spam')) {
             return false;
         }
         

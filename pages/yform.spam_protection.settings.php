@@ -61,9 +61,9 @@ if (rex_request::get('func', 'string') == "flush") {
 
     $form->addFieldset($this->i18n('external_services'));
 
-    $field = $form->addSelectField('block_stopforumspam');
-    $field->setLabel($this->i18n('block_stopforumspam_label'));
-    $field->setNotice($this->i18n('block_stopforumspam_notice'));
+    $field = $form->addSelectField('block_stop_forum_spam');
+    $field->setLabel($this->i18n('block_stop_forum_spam_label'));
+    $field->setNotice($this->i18n('block_stop_forum_spam_notice'));
     $select = $field->getSelect();
     $select->setSize(1);
     $select->addOption($this->i18n('activate'), 1);
